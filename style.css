@@ -1,18 +1,99 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
-    font-family: 'Poppins', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    background: fixed;
-    background-color: blueviolet;
 
-    denis Lima Souza
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1A1A1D;
+    width: 2500px;
+    height: 1600px;
+    
+   
+    
+      
+}
+
+
+.container {
+    
+
+
+}
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: #6a1e55;
+    width:100%;
+    height: 80px;
+    cursor: pointer;
+    margin-bottom: -200px;
+    font-size: 40px;
+    
+    
+}
+a {
+    color:#06D001;
+    text-decoration: none;
+    animation-fill-mode: forwards;  
+}
+
+
+nav {
+    
+    align-items: center;
+    text-align: center;    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+    
+    
+}
+
+.slogan {
+    color: #06D001;
+    font-size: 10.5rem;
+    text-align: left;
+    margin-top: -800px;
+    margin-left: 40px;
+    z-index: 100;
+    display:block;
+    
+}
+#cartao {
+    margin-left: 1000px;
+    display: flex;
+     
+     
+}
+#cartao2 {
+    margin-left: 800px;
+    display: flex;
+     
+     
+}
+
+#cartao3 {
+    margin-left: 1000px;
+    display: flex;
+     
+     
+}
+
+.cartao-size {
+    width: 500px;
+    height: 300px;
+    background-color: #1A1A1D;
+    border-radius: 10px;
+    margin-left: 800px;
+    margin-top: 250px;
+    margin-right: auto;
+    display: flex;
+    transition: all 1.9s ease-in-out;
     
 }
 
