@@ -6,10 +6,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #1A1A1D;
-    width: 2500px;
-    height: 1600px;
-    
+    background-color: #f7f7fc;
+    width: 2000px;
+    height: 1800px;   
+    border: solid 2px #06D001;
    
     
       
@@ -32,8 +32,13 @@ body {
     
 }
 a {
-    color:#06D001;
+    color:#fbfcfb;
     text-decoration: none;
+    animation-fill-mode: forwards;  
+}
+
+#saiba-mais {
+    background-color: #1A1A1D;
     animation-fill-mode: forwards;  
 }
 
@@ -51,30 +56,41 @@ nav {
 }
 
 .slogan {
-    color: #06D001;
+    color: #27391C;
     font-size: 10.5rem;
     text-align: left;
-    margin-top: -800px;
+    margin-top: -1100px;
     margin-left: 40px;
     z-index: 100;
     display:block;
+    direction: ltr;
     
 }
 #cartao {
-    margin-left: 1000px;
-    display: flex;
+    margin-left: 659px;
+    display: flex
      
      
 }
 #cartao2 {
-    margin-left: 800px;
+    margin-left: 659px;
+    margin-top: -200px;
+    display: flex;
+         
+     
+}
+
+#cartao3 {
+    margin-left: 659px;
+    margin-top: -200px;
     display: flex;
      
      
 }
 
-#cartao3 {
-    margin-left: 1000px;
+#cartao4 {
+    margin-left: 659px;
+    margin-top: -200px;
     display: flex;
      
      
@@ -90,6 +106,6 @@ nav {
     margin-right: auto;
     display: flex;
     transition: all 1.9s ease-in-out;
-    
+    animation-timing-function: linear;
 }
 
