@@ -1,18 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f7f7fc;
-    width: 2000px;
-    height: 1800px;   
-    border: solid 2px #06D001;
-   
-    
-      
+    background: url('videos/Tema\ Espacial\ Preto\ com\ Estrelas.mp4') no-repeat center center fixed;
+    background-size: cover;
+        
+          
 }   
 
 
@@ -22,25 +19,38 @@ body {
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    background-color: #6a1e55;
+    background-color: #ffffff;
     width:100%;
     height: 80px;
     cursor: pointer;
     margin-bottom: -200px;
-    font-size: 40px;
-    
+    margin-right: auto;
+    font-size: 2rem;
+        
     
 }
 a {
-    color:#fbfcfb;
+    color:#116d6e;
     text-decoration: none;
-    animation-fill-mode: forwards;  
-}
+    animation-fill-mode: forwards;
+    }
+    
 
 #saiba-mais {
     background-color: #1A1A1D;
     animation-fill-mode: forwards;  
 }
+
+#logo {
+    width: 300px;
+    height: 200px;
+    margin-left: -70px;
+    margin-top: 100px;
+    display: flex;
+    z-index: 100;
+    position: absolute;
+         
+}   
 
 
 nav {
@@ -48,64 +58,123 @@ nav {
     align-items: center;
     text-align: center;    
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 234px;
+    margin-right: 200px;
     margin-top: -60px;
-    
+    z-index: 200;
+    display: flex;
+        
     
 }
 
 .slogan {
     color: #27391C;
-    font-size: 10.5rem;
+    font-size: 5rem;
     text-align: left;
-    margin-top: -1100px;
+    margin-top: -500px;
     margin-left: 40px;
-    z-index: 100;
-    display:block;
-    direction: ltr;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    
+    
     
 }
-#cartao {
-    margin-left: 659px;
-    display: flex
+
      
-     
-}
+    
+
 #cartao2 {
-    margin-left: 659px;
-    margin-top: -200px;
-    display: flex;
-         
-     
-}
-
-#cartao3 {
-    margin-left: 659px;
-    margin-top: -200px;
+    margin-left: 700px;
+    margin-top: 300px;
     display: flex;
      
      
 }
 
-#cartao4 {
-    margin-left: 659px;
-    margin-top: -200px;
-    display: flex;
-     
-     
-}
+
 
 .cartao-size {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     background-color: #1A1A1D;
     border-radius: 10px;
-    margin-left: 800px;
-    margin-top: 250px;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 150px;
     display: flex;
     transition: all 1.9s ease-in-out;
-    animation-timing-function: linear;
+    animation-timing-function:cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    
 }
+
+@media (max-width: 768px) {
+    .slogan {
+        font-size: 2rem;
+        margin-top: 300px;
+        margin-bottom: -300px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    
+    nav {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -60px;
+        display: flex;
+        
+    }
+    
+    #logo {
+        width: 200px;
+        height: 150px;
+        margin-left: -50px;
+        margin-top: -20px;
+        z-index: -100;
+    }
+    
+    .nav-list {
+        font-size: 1.5rem;
+        margin-left: 80px;
+        font-size: 20px;
+        background-color: transparent;
+    }
+    
+    .cartao-size {
+        width: 200px;
+        height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 95px;
+        
+    }
+
+    #cartao2 {
+        margin-left: 40px;
+        margin-right: 300px;
+        margin-top: 300px;
+        margin-bottom: -650px;
+        display: flex;
+       
+         
+         
+    }
+
+    body {
+        background: url("videos/Tema\ Espacial\ Preto\ com\ Estrelas.mp4");
+        background-size: cover;
+        background-color: #000000;  
+    }
+
+    footer {
+        margin-top: 600px;
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+    copy {
+        text-decoration: #ffffff;
+    }
+}
+
+
 
